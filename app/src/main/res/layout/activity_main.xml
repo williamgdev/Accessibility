@@ -54,6 +54,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="@color/colorPrimaryDark"
+        android:orientation="vertical"
         android:layout_weight="1">
 
         <TextView
@@ -69,6 +70,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Boton 2" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Speak"
+            android:onClick="speak"/>
+
     </LinearLayout>
+
 
 </LinearLayout>
