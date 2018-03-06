@@ -14,6 +14,9 @@
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="com.google.android.voicesearch.SELF_NOTE" />
             </intent-filter>
         </activity>
     </application>
